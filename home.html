@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <title>shopdressup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .open-2{
+      display: none;
+    }
+    a{
+    color:black;
+  }
+@media (max-width: 552px) {
+    .text-in-image,
+    .dropdown p{
+        font-size: 6px;
+    }
+    .text-float{
+        font-size: 10px;
+    }
+}
+@media (max-width:991.98px) {
+.exp{
+width: 300px;
+}
+.open-1{
+  display: none;
+}
+.open-2{
+  display: block;
+}
+.icon-t{
+  width: 3vw;
+}
+
+}
+    </style>
+</head>
+<body>
+    <div id="carouselExampleSlidesOnly" class="carousel slide text-center contain-1 text-white" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p class="text-uppercase text-float pt-2">free shopping on orders over $65</p>
+        </div>
+        <div class="carousel-item">
+          <p class="text-float p-2"><span>BUY ONLINE + PICK UP IN STORE</span>select “store pick up” at checkout + pick up same day!</p>
+        </div>
+      </div>
+    </div>
+    <section name="navigation" class="mb-1">
+      <div class="container mt-4 open-1">
+        <div class="row">
+          <div class="col-1">
+           <div class="row">
+            <div class="col">
+              <svg  xmlns="http://www.w3.org/2000/svg" style="width: 25; height:25;" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </div>
+           </div>
+          </div>
+          <div class="col-10">
+            <div class="row search text-center">
+              <a href="#"><img  src="https://cdn.shopify.com/s/files/1/0339/0901/files/Peach-Black-DU-Logo_160x@2x.png" style="width: 13vw;" class="rounded" alt="..."></a>
+            </div>
+            <div class="row">
+              <div class="roo col">
+                <nav class="navbar wid navbar-expand-lg navbar-light">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link exp"  href="#">Last Chance Sale</a> 
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">New Arrivals</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">DU Exclusive</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Clothing</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Dresses</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Shoes</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Accessories</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Sale</a>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
+              </div>
+            </div>
+          </div>
+          <div class="col-1 pad d-flex justify-content-between">
+              <a class="" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" style="width: 25; height:25;" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                </svg>
+              </a>
+              <a class="" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" style="width: 25; height:25;" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                </svg>
+              </a>
+              </div>
+          </div>
+        </div>
+      <!--  -->
+      <div class="container mt-1 open-2">
+        <div class="row">
+          <div class="col-2">
+            <nav class="navbar wid navbar-expand-lg navbar-light">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon icon-t"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link exp"  href="#">Last Chance Sale</a> 
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      New Arrivals
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      DE Exclusive
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Clothing
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dresses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Accessories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sale</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+          </div>
+          <div class="col-8">
+            <div class="row search text-center">
+              <a href="#"><img  src="https://cdn.shopify.com/s/files/1/0339/0901/files/Peach-Black-DU-Logo_160x@2x.png" style="width: 18vw;" class="rounded mt-2" alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-6 mt-2">
+                <a class="nav-link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" style="width: 3vw; height:3vw;" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </a></div>
+              <div class="col-6 mt-2">
+              <a class="nav-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" style="width: 3vw; height:3vw;" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                </svg>
+              </a></div>
+              </div>
+          </div>
+        </div>
+      </div>
+     </section>
+  <main>
+      <section name="image-section 1">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a class="nav-link" href="#"><img src="https://cdn.shopify.com/s/files/1/0339/0901/files/2.4.23_main_1944x.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a class="nav-link" href="#"><img src="https://cdn.shopify.com/s/files/1/0339/0901/files/1.20.23_main_2_1944x.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a class="nav-link" href="#"><img src="https://cdn.shopify.com/s/files/1/0339/0901/files/1.27.22_hero_1944x.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+            </div>
+          </div>
+          <div class="container-xxl">
+            <div class=" row p-3 align-items-center">
+                <div class="col-md-6 text-center">
+                    <p class="font-weight-bold align" style="font-size: 14px;">BUY ONLINE & PICK UP IN STORE</p> 
+                </div>
+                <div class=" col-md-6 text-center">
+                  <p class="align-2" style="font-size: 14px;">select “store pick up” at checkout + pick up same day!</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section name="image-grid-collection">
+          <div class="container-xxl mb-5">
+            <div class="align-items-center mt-2 mb-5">
+              <h3 class="text-center">Women's Dress Boutique</h3>
+            </div>
+            <div class="container-xxl ">
+            <div class="row d-flex justify-content-around flex-wrap">
+              <div class="col-sm-6 col-md col-lg-3">
+                <a class="nav-link d-flex justify-content-center" href="#"><div class="gird-image-size carousel-inner mb-4">
+                  <img class="img-fluid img-fluid-h" src="https://cdn.shopify.com/s/files/1/0339/0901/collections/F735F142-2F7F-47C8-8975-18F603639090_360x.png">
+                  <div class="centered"><p class="text-uppercase text-white">shop knits</p></div>
+                  </div></a>
+              </div>
+              <div class="col-sm-6 col-md col-lg-3">
+                <a class="nav-link d-flex justify-content-center" href="#"><div class="gird-image-size carousel-inner mb-4">
+                  <img class="img-fluid img-fluid-h" src="https://cdn.shopify.com/s/files/1/0339/0901/collections/722FC89A-6C91-4D4A-9135-4BEDE78B1E4D_360x.png">
+                  <div class="centered"><p class="text-uppercase text-white">shop new</p></div>
+                </div></a>
+              </div>
+              <div class="col-sm-6 col-md col-lg-3">
+                <a class="nav-link d-flex justify-content-center" href="#"><div class="gird-image-size carousel-inner mb-4">
+                <img class="img-fluid img-fluid-h" src="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_sage_knit_sweater-7_360x.jpg">
+                <div class="centered"><p class="text-uppercase text-white">jewelry</p></div>
+              </div></a></div>
+              <div class="col-sm-6 col-md col-lg-3">
+                <a class="nav-link d-flex justify-content-center" href="#"><div class="gird-image-size carousel-inner mb-4">
+                  <img class="img-fluid img-fluid-h" src="https://cdn.shopify.com/s/files/1/0339/0901/collections/3B642D7B-7FA0-49D4-AD2E-A11E63B159AE_360x.png">
+                  <div class="centered"><p class="text-uppercase text-white">outwears</p></div>
+                </div></a>
+              </div>
+              
+                
+                
+                
+            </div>
+            </div>
+          </div>
+      </section>
+      <section name="double-image-collection-1">
+        <div class="container-xxl double-image">
+          <div class="row d-flex justify-content-evenly">
+            <div class="col-lg image mb-4" style="padding: 0 4px 0 5px;">
+              <a class="" href="#"><img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0339/0901/files/0R4A8041_900x.jpg"></a>
+              <div class="text-in-left">
+                <h2 class="text-uppercase text-white mb-3">knits for spring</h2>
+                <h5><span class=" rounded-0 text-white border p-2">shop now</span></h5>
+              </div>
+            </div>
+            <div class="col-lg image mb-4" style="padding: 0 5px 0 4px;">
+              <a class="" href="#"><img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0339/0901/files/0R4A7930_2376x.jpg"></a>
+              <div class="text-in-right">
+                <h2 class="text-uppercase text-white mb-3">new denim</h2>
+                <h5><span class=" rounded-0 text-white border p-2">shop now</span></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-xxl">
+          <div class=" row p-3 align-items-center">
+            <div class="col-md-6 text-center">
+                <p class="font-weight-bold align" style="font-size: 14px;">Shop New Collections 2-3x Weekly</p> 
+            </div>
+            <div class=" col-md-6 text-center">
+              <p class="align-2 " style="font-size: 10px;"><span class="border text-uppercase p-1">shop our latest release</span></p>
+            </div>
+        </div>
+      </div>
+      
+      </section>
+      <section name="image-section 2">
+        <div class="container-xxl">
+          <div class="row">
+            <div class="col">
+              <a class="nav-link" href="#"><img src="https://cdn.shopify.com/s/files/1/0339/0901/files/0R4A4945_1728x.jpg" class="img-fluid single-image" alt="..."></a>
+              <div class="text-in-right-single">
+                <h1 class="text-uppercase text-white mb-3">valentine's looks</h1>
+                <h4><span class=" rounded-0 text-white border p-2">shop the collections</span></h4>
+              </div>
+           </div>
+          </div>
+        </div>
+        
+      <div class="container-xxl mt-4">
+        <div class=" row mb-3 align-items-center">
+          <div class="col-md-6 text-center">
+              <p class="font-weight-bold align" style="font-size: 14px;">Buy Her a Gift Card</p> 
+          </div>
+          <div class=" col-md-6 text-center">
+            <p class="align-2 " style="font-size: 10px;"><span class="text-uppercase border p-1">shop our latest release</span></p>
+          </div>
+      </div>
+    </div>
+      </section>
+      <section name="double-image-collection-1">
+        <div class="container-xxl double-image">
+          <div class="row d-flex justify-content-evenly">
+            <div class="col-lg image mb-4" style="padding: 0 4px 0 5px;">
+              <a class="" href="#"><img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0339/0901/files/0R4A9101_1512x.jpg"></a>
+              <div class="text-in-left">
+                <p class="text-uppercase text-white mb-3 h6">trend to try</p>
+                <h1 class="text-uppercase text-white mb-3">casual upgrades</h1>
+                <h5><span class=" rounded-0 text-white border p-2">shop now</span></h5>
+              </div>
+            </div>
+            <div class="col-lg image mb-4" style="padding: 0 5px 0 4px;">
+              <a class="" href="#"><img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0339/0901/files/0R4A2424_900x.jpg"></a>
+              <div class="text-in-right">
+                <p class="text-uppercase text-white mb-3 h6">new for 2023</p>
+                <h1 class="text-uppercase text-white mb-3">du exclusive</h1>
+                <h5><span class=" rounded-0 text-white border p-2">shop now</span></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="contaner">
+        <div class="text-center py-4">
+          <h4>NEW ARRIVALS</h4>
+        </div>
+      </div>
+      <section name="new-arrival">
+        <div class="container-xxl d-flex justify-content-center">
+          <div class="cont d-flex ">
+            <div class="size-2 mx-1">
+              <div class="image-hover pb-2"> 
+                <a class="" href="#"><img style="width:280px; height:450px" src="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_embroidered_blouse-3_5a2d227d-9b3e-4ded-946b-4a40564a1b0e_360x.jpg"></a>
+                <div class="hidden">
+                  <a class="" href="#"><img style="width:280px; height:450px" src="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_embroidered_blouse_360x.jpg"></a>
+                  <div class="text-in-image">
+                    <p><span class="bg-white px-2 py-1" style="letter-spacing: 2px;">QUICK VIEW</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center text-below-image">
+                <p>Inspire Romance Maxi Dress</p>
+                <p>$73.99</p>
+              </div>
+            </div>
+            <div class="size-2 mx-1">
+              <div class="image-hover pb-2"> 
+               <a class="" href="#"> <img style="width:280px; height:450px" src="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_silver_floral_blouse-4_360x.jpg"></a>
+                <div class="hidden">
+                  <a class="" href="#"><img style="width:280px; height:450px" src="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_silver_floral_blouse-5_360x.jpg"></a>
+                  <div class="text-in-image">
+                    <p><span class="bg-white px-2 py-1" style="letter-spacing: 2px;">QUICK VIEW</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center text-below-image">
+                <p>Happy Days Smiley Face Denim Jacket</p>
+                <p>$56.00</p>
+              </div>
+            </div>
+            <div class="size-2 mx-1">
+              <div class="image-hover pb-2"> 
+                <a class="" href="#"><img style="width:280px; height:450px" src="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_rust_blouse-4_a79d4204-4f16-4f62-9721-341e498a8cf2_360x.jpg"></a>
+                <div class="hidden">
+                  <a class="" href="#"><img style="width:280px; height:450px" src="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_rust_blouse-5_a79a92f5-f5c4-44b0-a695-d75e5b2c6176_360x.jpg"></a>
+                  <div class="text-in-image">
+                    <p><span class="bg-white px-2 py-1" style="letter-spacing: 2px;">QUICK VIEW</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center text-below-image">
+                <p>Feel The Romance Mini Dresst</p>
+                <p>$99.99</p>
+              </div>
+            </div>
+            <div class="size-2 mx-1">
+              <div class="image-hover pb-2"> 
+                <a class="" href="#"><img style="width:280px; height:450px" src="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_embroidered_blouse-3_5a2d227d-9b3e-4ded-946b-4a40564a1b0e_360x.jpg"></a>
+                <div class="hidden">
+                  <a class="" href="#"><img style="width:280px; height:450px" src="https://cdn.shopify.com/s/files/1/0339/0901/products/shopdressup_embroidered_blouse_360x.jpg"></a>
+                  <div class="text-in-image">
+                    <p><span class="bg-white px-2 py-1" style="letter-spacing: 2px;">QUICK VIEW</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center text-below-image">
+                <p>Inspire Romance Maxi Dress</p>
+                <p>$73.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section name="info-section" class="">
+        <div class="container mt-5">
+          <div class="row pb-5">
+            <div class="col text-center">
+          <h5>Trendy Clothing & Accessories at Dress Up - An Online Dress Boutique</h5>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-10 text-center pb-5">
+          <p class="dropdown">Dress Up is a women's clothing store with new trendy and affordable arrivals dropping
+             2-3 times weekly. Shop the latest trends in women's fashion <a>dresses</a>, <a>tops</a>, <a>sweaters</a>,
+              <a>skirts</a>, <a>jeans</a>, <a>accessories</a> & more. At Dress Up, you can shop at one of the 16 locations
+               across the southeast, or online 24/7 at <a>ShopDressup</a></p>
+              </div>
+            </div>
+        </div>
+      </section>
+</main>
+<footer class="footer-con text-white">
+  <section name="links">
+  <div class="container">
+    <div class="row  py-3">
+      <div class="col-4">
+        <a class="nav-link" href="#"><h1 id="footer-tit">DressUp</h1></a>
+      </div>
+    </div>
+    <div class="row text-below-image">
+      <div class="col-sm-3 py-3">
+        <a class="nav-link" href="#"><p class=" para1 text-uppercase pb-2">quick links</p></a>
+        <a class="nav-link" href="#"><p>Hudson Blake</p></a>
+        <a class="nav-link" href="#"><p>Shipping + Returns</p></a>
+        <a class="nav-link" href="#"><p>FAQs</p></a>
+        <a class="nav-link" href="#"><p>Contact Us</p></a>
+        <a class="nav-link" href="#"><p>Gift Cards</p></a>
+        <a class="nav-link" href="#"><p>Privacy Policy</p></a>
+        <a class="nav-link" href="#"><p>Terms of Service</p></a>
+        <a class="nav-link" href="#"><p>Refund Policy</p></a>
+      </div>
+      <div class="col-sm-3 py-3">
+        <a class="nav-link" href="#"><p class=" para1 text-uppercase pb-2">about us</p></a>
+        <a class="nav-link" href="#"><p>Our Story + Mission</p></a>
+        <a class="nav-link" href="#"><p>Locations</p></a>
+        <a class="nav-link" href="#"><p>Collaborations</p></a>
+        <a class="nav-link" href="#"><p>Careers</p></a>
+        <a class="nav-link" href="#"><p>Interns</p></a>
+        <a class="nav-link" href="#"><p>Blog</p></a>
+      </div>
+      <div class="col-sm-4 py-3">
+        <a class="nav-link" href="#"><p class=" para1 text-uppercase pb-2">SIGN UP AND SAVE</p></a>
+        <a class="nav-link" href="#"><p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p></a>
+        <div class="row py-2 border-bottom">
+        <div class="col-8">
+          <input class="input-email" type="email" placeholder="Enter your email">
+        </div>
+        <div class="col-4 text-right">
+          <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" style="width: 20; height:20;" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-2">
+          <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" style="width: 25; height:25;" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg></a>
+        </div>
+        <div class="col-2">
+          <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" style="width: 25; height:25;" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></a>
+        </div>
+        <div class="col-2">
+          <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" style="width: 25; height:25;" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+          </svg></a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section name="images_cc">
+    <div class="container d-flex justify-content-center  pb-5">
+      <div class="col-.5 round px-1">
+        <a class="nav-link" href="#"><img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/1200px-American_Express_logo_%282018%29.svg.png"></a>
+      </div>
+      <div class="col-.5 round px-1">
+        <a class="nav-link" href="#"><img class="img-fluid" src="https://developer.apple.com/news/images/og/apple-pay-og-twitter.jpg"></a>
+      </div>
+      <div class="col-.5 round px-1">
+        <a class="nav-link" href="#"><img class="img-fluid" src="https://1000logos.net/wp-content/uploads/2020/11/Discover-Logo.jpg"></a>
+      </div>
+      <div class="col-.5 round px-1">
+        <a class="nav-link" href="#"><img class="img-fluid" src="https://lh3.googleusercontent.com/cL0-sGY6d5KaZFLOYuM_Q7-jjtBMa4kWFH63P_SkulwLOeJ0RlsPSIFreR6K6np2n_Q_JSiZbSYmwGteTPNQ6M07II1bo_S6HJ4yFkE=rw-s0"></a>
+      </div>
+      <div class="col-.5 round px-1">
+        <a class="nav-link" href="#"><img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/UKSLdttYoIK2bv1gd231rqL4eiQ=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13674554/Mastercard_logo.jpg"></a>
+      </div>
+      
+      <div class="col-.5 round px-1">
+        <a class="nav-link" href="#"><img class="img-fluid" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/venmo_logo_icon_169267.png"></a>
+      </div>
+      <div class="col-.5 round px-1">
+        <a class="nav-link" href="#"><img class="img-fluid" src="https://usa.visa.com/dam/VCOM/regional/ve/romania/blogs/hero-image/visa-logo-800x450.jpg"></a>
+      </div>
+    </div>
+    <div class="container text-center pb-5">
+     <a class="nav-link" href="#"> <p>&#169 2023 Dress Up</p></a>
+    </div>
+  </section>
+</footer>
+<script>
+  function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+  
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+</script>
+</body>
+</html>
